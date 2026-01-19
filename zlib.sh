@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 PREFIXDIR=$HOME/llvm-mingw-install/arm64ec-w64-mingw32
 
 wget https://zlib.net/fossils/zlib-1.3.1.tar.gz

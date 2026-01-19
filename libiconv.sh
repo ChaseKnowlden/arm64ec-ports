@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 wget https://ftpmirror.gnu.org/libiconv/libiconv-1.18.tar.gz
 tar xvf libiconv-1.18.tar.gz
 cd libiconv-1.18

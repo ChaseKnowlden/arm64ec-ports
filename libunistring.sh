@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 wget https://github.com/ChaseKnowlden/libunistring-arm64ec/archive/refs/heads/main.zip
 unzip main.zip
 cd libunistring-arm64ec-main

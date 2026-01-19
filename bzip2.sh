@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 wget https://www.sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz
 wget https://github.com/msys2/MINGW-packages/raw/refs/heads/master/mingw-w64-bzip2/bzip2-1.0.6-progress.all.patch
 wget https://github.com/msys2/MINGW-packages/raw/refs/heads/master/mingw-w64-bzip2/bzip2-buildsystem.all.patch
